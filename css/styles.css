@@ -51,18 +51,18 @@ img {
 */
 .button {
     display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 16px 32px;
+
     color: var(--color-white);
     background-color: var(--color-iris);
-
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    cursor: pointer;
-
-    border-radius: 4px;
-    padding: 16px 32px;
+    cursor: pointer; 
    
     text-align: center;
     border: none
@@ -71,7 +71,6 @@ img {
 .button.primary {
     min-width: 169px;
     height: 56px;
-    margin: 0 auto;
     color: var(--color-white);
     background-color: var(--color-iris);
 }
@@ -146,7 +145,7 @@ img {
        
     align-items: center;
     margin-right: auto;
-    justify-content: center;
+   /* justify-content: center;*/
    
 }
 .header-brand {
