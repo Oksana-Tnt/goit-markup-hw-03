@@ -50,8 +50,7 @@ img {
   |============================
 */
 .button {
-    display: block;
-    margin: 0 auto;
+    display: block;   
     border-radius: 4px;    
 
     color: var(--color-white);
@@ -71,6 +70,7 @@ img {
     min-width: 169px;
     height: 56px;
     padding: 16px 32px;
+    margin: 0 auto;
     
     color: var(--color-white);
     background-color: var(--color-iris);
@@ -129,25 +129,23 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.description{
+.description {
     margin-top: 0;
     margin-bottom: 0;
     letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
 }
+
 /**
   |============================
   | site nav
   |============================
 */
 .main-nav{
-    display: flex;
-       
+    display: flex;       
     align-items: center;
-    /*margin-right: auto;*/
-   /* justify-content: center;*/
-   margin-right: auto;
+    margin-right: auto;
 }
 .header-brand {
     color: var(--color-navy-blue);
@@ -162,7 +160,7 @@ img {
     display: flex;
     align-items: center;
     padding: 24px 0;
-   /* margin-right: auto;*/
+    margin-right: auto;
 }
 .site-menu {
     display: flex;
