@@ -51,9 +51,8 @@ img {
 */
 .button {
     display: block;
-    margin: 0 auto;
-    border-radius: 4px;
-    padding: 16px 32px;
+  
+    border-radius: 4px;    
 
     color: var(--color-white);
     background-color: var(--color-iris);
@@ -71,6 +70,8 @@ img {
 .button.primary {
     min-width: 169px;
     height: 56px;
+    padding: 16px 32px;
+    margin: 0 auto;
     color: var(--color-white);
     background-color: var(--color-iris);
 }
@@ -144,7 +145,7 @@ img {
     display: flex;
        
     align-items: center;
-    margin-right: auto;
+    /*margin-right: auto;*/
    /* justify-content: center;*/
    
 }
