@@ -65,8 +65,7 @@ img {
     padding: 16px 32px;
    
     text-align: center;
-    border: none;
-    margin: 0 auto;
+    border: none
 }
 
 .button.primary {
@@ -168,7 +167,6 @@ img {
 .site-menu {
     display: flex;
     margin-left: 76px;
-    margin-right: auto;
     padding: 24px 0;
     gap: 40px;
 
@@ -183,9 +181,9 @@ img {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;  
-    letter-spacing: 0.02em;   
-
+    letter-spacing: 0.02em; 
 }
+
 .site-menu .menu:hover,
 .site-menu .menu:focus
 {
