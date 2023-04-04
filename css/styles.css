@@ -144,8 +144,7 @@ img {
 */
 .main-nav{
     display: flex;       
-    align-items: center;
-    margin-right: auto;
+    align-items: center
 }
 .header-brand {
     color: var(--color-navy-blue);
