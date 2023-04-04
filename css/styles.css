@@ -158,13 +158,11 @@ img {
 .site-nav{
     display: flex;
     align-items: center;
-    padding: 24px 0;
     margin-right: auto;
 }
 .site-menu {
     display: flex;
     margin-left: 76px;
-    padding: 24px 0;
     gap: 40px;
 
    
@@ -188,7 +186,6 @@ img {
 }
 .adress{
     display: flex;
-    margin-left: auto;
     font-style: normal;
    
 }
