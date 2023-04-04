@@ -157,7 +157,7 @@ img {
 
 .site-nav{
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
     margin-right: auto;
 }
 .site-menu {
@@ -257,7 +257,8 @@ img {
 }
 
 .features-list .item {
-        width: 264px;
+    flex-basis:calc((100%-72px)/4);
+     
 }
 
 .works-list{
@@ -265,7 +266,7 @@ img {
     gap:24px;
 }
 .works-list .item{
-    width: 360px;
+    flex-basis: calc((100%-48px)/3);    
         
 }
 .section-team{
@@ -281,8 +282,8 @@ img {
     gap: 24px;
 }
 .team-list .item{
+    flex-basis: calc((100%-72px)/4);
     background-color: var(--color-white);
-    width: 264px;
         
 }
 
@@ -365,7 +366,7 @@ img {
    
 }
 .card-set > .item{
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 48px) / 3);
     border: 1px solid var(--color-cornflower);
 }
 
